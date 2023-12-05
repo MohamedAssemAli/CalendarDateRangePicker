@@ -1,4 +1,4 @@
-package com.youxel.daterangepickerdemo;
+package com.youxel.calendardaterangepickerdemo;
 
 import static com.youxel.daterangepicker.customviews.CalendarRangeUtilsKt.printDate;
 
@@ -15,6 +15,7 @@ import com.youxel.daterangepicker.customviews.CalendarListener;
 import com.youxel.daterangepicker.customviews.DateRangeCalendarView;
 
 import java.util.Calendar;
+import java.util.Locale;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         calendar.setCalendarListener(calendarListener);
 
+        calendar.setLocale(new Locale("ar", "SA"));
         findViewById(R.id.btnReset).setOnClickListener(v -> calendar.resetAllSelectedViews());
 
 //        calendar.setNavLeftImage(ContextCompat.getDrawable(this,R.drawable.ic_left));

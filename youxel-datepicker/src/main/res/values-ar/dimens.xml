@@ -3,15 +3,15 @@
 
     <!-- dateTitleLayout -->
     <dimen name="text_size_title">16sp</dimen>
-    <dimen name="dateTitlePaddingBottom">8dp</dimen>
+    <dimen name="dateTitlePaddingBottom">5dp</dimen>
     <!-- weekLayout -->
     <dimen name="weekDaysPaddingBottom">0dp</dimen>
-    <dimen name="text_size_week">15sp</dimen>
+    <dimen name="text_size_week">12sp</dimen>
     <!-- weekRowLayout -->
     <dimen name="weekRowMinHeight">44dp</dimen>
-    <dimen name="text_size_date">18sp</dimen>
-    <dimen name="dayOfMonthBoxSize">44dp</dimen>
-    <dimen name="dayOfMonthSize">34dp</dimen>
+    <dimen name="text_size_date">15sp</dimen>
+    <dimen name="dayOfMonthBoxSize">46dp</dimen>
+    <dimen name="dayOfMonthSize">36dp</dimen>
     <dimen name="dayOfMonthMinWidth">50dp</dimen>
     <dimen name="dayOfMonthMinHeight">0dp</dimen>
     <dimen name="dayOfMonthPaddingBottom">0dp</dimen>
